@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Stephen Colbert",
+      "cardNumber": "XXXX-XXXX-XXXX-4321",
+      "cardType": "Amex"
+    },
+    {
+      "id": 2,
+      "name": "Trevor Noah",
+      "cardNumber": "XXXX-XXXX-XXXX-1369",
+      "cardType": "Master"
+    },
+    {
+      "id": 3,
+      "name": "Hasan Minhaj",
+      "cardNumber": "XXXX-XXXX-XXXX-8888",
+      "cardType": "Visa"
+    }
+  ]
+}
