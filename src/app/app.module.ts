@@ -13,11 +13,13 @@ import { UserEffects } from './store/effects/user.effects';
 import { ConfigEffects } from './store/effects/config.effects';
 import { UserService } from './services/user.service';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
+import { UsersComponent } from './components/users/users.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
