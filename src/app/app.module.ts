@@ -12,6 +12,7 @@ import { appReducers } from './store/reducers/app.reducers';
 import { UserEffects } from './store/effects/user.effects';
 import { ConfigEffects } from './store/effects/config.effects';
 import { UserService } from './services/user.service';
+import { UsersComponent as UsersContainerComponent } from './containers/users/users.component';
 import { UsersComponent } from './components/users/users.component';
 import { UserComponent } from './containers/user/user.component';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
@@ -19,9 +20,10 @@ import { UserDetailsComponent } from './components/user-details/user-details.com
 @NgModule({
   declarations: [
     AppComponent,
-    UserDetailsComponent,
+    UsersContainerComponent,
     UsersComponent,
-    UserComponent
+    UserComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,
