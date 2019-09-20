@@ -1,11 +1,19 @@
-<div>
-  <p>
-    Name: {{ user.name }}
-  </p>
-  <p>
-    Card Number: {{ user.cardNumber }}
-  </p>
-  <p>
-    Card Type: {{ user.cardType }}
-  </p>
+<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">{{ user.name }}</h1>
+</div>
+
+<div class="row justify-content-center">
+  <div class="card border-dark shadow">
+    <div class="card-header text-white bg-dark">
+      <h4 class="my-0 font-weight-normal">Card Details</h4>
+    </div>
+    <div class="card-body">
+      <dl class="mb-0">
+        <dt>Number</dt>
+        <dd>{{ user.cardNumber }}</dd>
+        <dt>Type</dt>
+        <dd class="mb-0">{{ user.cardType }}</dd>
+      </dl>
+    </div>
+  </div>
 </div>
